@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head> 
+<body>
+
+    <div>Брой въпроси от този кръг -  4</div>
+
+    <script type="text/javascript">
+
+        // информация за потребителя
+        let totalPointAmmount           = 0;
+        let totalPriceAmmount           = 0;
+        const MAX_NUMBER_OF_QUESTIONS   = 5;
+        let questionTimeLimitInMinutes; 
+
+        // данни свързани с първи въпрос
+        questionTimeLimitInMinutes      = 10;
+        // let firstQuestion               = "Кога е създадена българската държава ? (време за отговор " + questionTimeLimitInMinutes + " минути)" ;
+        let firstQuestion               = `Кога е създадена българската държава ? (време за отговор ${questionTimeLimitInMinutes} в минути) `;
+        let firstQuestionPointAmount    = 4;
+        let firstQuestionCorrectAnswer  = 681; 
+        
+
+        // задаваме въпроса
+        let firstQuestionAnswer             = prompt(firstQuestion);
+        let isFirstQuestionAnswerCorrect    = firstQuestionCorrectAnswer == firstQuestionAnswer; 
+        // console.log(firstQuestionCorrectAnswer)
+        // console.log(firstQuestionAnswer);
+        // console.log(firstQuestionCorrectAnswer == firstQuestionAnswer);
+
+        // По-добър вариант за изпълнение на програмата
+
+        let gameDossier;
+
+        if(isFirstQuestionAnswerCorrect) {
+            console.log("Верен отговор"); 
+            alert("Браво");
+            
+            // аритметични оператори
+            totalPointAmmount = totalPointAmmount + firstQuestionPointAmount;
+
+            let gameDossier = "Отгови вярно на въпрос 1";
+        } 
+        else {
+            console.log("Грешен отговор");
+            alert("Не позна");
+
+            // аритметика - калкулация на точките
+            // вариант 1 - една единствена променлива
+            totalPointAmmount = totalPointAmmount - (firstQuestionPointAmount / 2);
+
+            // вариант 2 - с допълителна променлива
+            let pointAmount = firstQuestionPointAmount / 2;
+            totalPointAmmount = totalPointAmmount - pointAmount;
+
+            let gameDossier = "Отгови грешно на въпрос 1";
+        }
+
+        console.log(gameDossier);
+
+        // Доста по-добра идея е да ползваме променливи вместо да пишем целия въпрос в IF
+        // if(firstQuestionCorrectAnswer == firstQuestionAnswer) { 
+        // }
+        
+
+        let playerFirstName     = prompt("Как се казваш - първо име ?");
+        let playerSecondName    = prompt("Как се казваш - фамилия ?");
+        let playerAge           = prompt("На колко си ?");
+        let playerGender        = prompt("Какъв пол си ?");
+
+        console.log(`Първо име ${playerFirstName}`);
+        console.log(`Фамилия ${playerSecondName}`);
+        console.log(`Възраст ${playerAge}`);
+        console.log(`Пол ${playerGender}`);
+
+        alert("Всички данни са записани успешно");
+
+        let isPlayerUnderaged       = playerAge < 18;
+        let isPlayerAnAdoult        = playerAge == 18;
+        let isPlayerIn35AgeCategory = (playerAge > 18)  && (playerAge <= 35);
+        let isPlayerIn65AgeExactly  = playerAge == 65;
+
+        if(isPlayerUnderaged) {
+            totalPointAmmount = 0;
+            totalPriceAmmount = 0;
+        }
+        else if(isPlayerAnAdoult) {
+            totalPriceAmmount = totalPriceAmmount + 5;
+        }
+        else if(isPlayerIn35AgeCategory) {
+            totalPriceAmmount = totalPriceAmmount + 10;
+        }
+        else if(isPlayerIn65AgeExactly) {
+            totalPriceAmmount = totalPriceAmmount + 60;
+        }
+        else {
+            totalPriceAmmount = totalPriceAmmount + 1;
+        }
+
+        // 
+        totalPriceAmmount = totalPriceAmmount +  (totalPointAmmount * 10);
+
+        
+        if(totalPriceAmmount > 0) {
+            console.log(`Получаваш сумата от ${totalPriceAmmount}`);
+        }
+        else if(totalPriceAmmount < 0) {
+            console.log(`Дължиш сумата от ${totalPriceAmmount}`);
+        }
+        else {
+            console.log("Благодаря за участието");
+        }
+        
+
+        if(totalPriceAmmount > 0) {
+            console.log(`Получаваш сумата от ${totalPriceAmmount}`);
+        }
+        
+        if(totalPriceAmmount < 0) {
+            console.log(`Дължиш сумата от ${totalPriceAmmount}`);
+        }
+
+        if(totalPriceAmmount == 0) {
+            console.log("Благодаря за участието");
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>
