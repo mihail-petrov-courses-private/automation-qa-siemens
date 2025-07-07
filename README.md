@@ -44,6 +44,7 @@
             <th width="120">N</th>
             <th width="280px">Тема</th>
             <th width="610px">Какво разгледахме</th>
+            <th width="110px">Видео</th>
         </tr>
     </thead>
     <tbody>
@@ -65,6 +66,9 @@
             - Работа с функции <br>
             - Долепване на информация под формата на текст (конкатенация)
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>         
         </tr>
         <tr>
             <td>
@@ -83,6 +87,9 @@
             - Разлика между let и var <br>
             - Темплейтни стрингове
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>
         </tr>
         <tr>
             <td>
@@ -100,6 +107,9 @@
             - представяне на POSTMAN и неговите особености <br>
             - разработка на скриптове за управление на Postman процедури
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>         
         </tr>
         <tr>
             <td>
@@ -118,6 +128,9 @@
             - Вградени функции в JavaScript (работа с обекта Math) <br>
             - Doc block - коментари
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>         
         </tr>
         <tr>
             <td>
@@ -136,6 +149,9 @@
             - Вградени функции в JavaScript (работа с обекта Math) <br>
             - Doc block - коментари
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>         
         </tr>
         <tr>
             <td>
@@ -156,6 +172,9 @@
             - Работа със събития <br>
             - Работа с дебъгера на Dev Tools
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>
         </tr>        
     </tbody>
 </table>
@@ -174,6 +193,7 @@
             <th width="120">N</th>
             <th width="280px">Тема</th>
             <th width="610px">Какво разгледахме</th>
+            <th width="110px">Видео</th>
         </tr>
     </thead>
     <tbody>
@@ -193,6 +213,9 @@
             - Концепция компонентен и функционален тест <br>
             - Разработка на базов механизъм за управление на масиви от тестове
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>         
         </tr>
         <tr>
             <td>
@@ -208,6 +231,9 @@
 - Автоматизирани тестове и основи на платформите за автоматизация <br>
 - Запознаване със средата, работа с UI на продукта
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>         
         </tr>
         <tr>
             <td>
@@ -223,6 +249,9 @@
             - Работа по Cypress сценарии <br>
             - Добри практики при разработка на автоматизирани скриптове
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>         
         </tr>
         <tr>
             <td>
@@ -238,6 +267,9 @@
             - Концепция за контейнери <br>
             - Какво е Docker и как работи
             </td>
+            <td align="center">
+                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+            </td>         
         </tr>
     </tbody>
 </table>
