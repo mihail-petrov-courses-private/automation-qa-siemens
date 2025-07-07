@@ -67,7 +67,7 @@
             - Долепване на информация под формата на текст (конкатенация)
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/zXL_7fMKfsU">▶️</a>
             </td>         
         </tr>
         <tr>
@@ -88,7 +88,7 @@
             - Темплейтни стрингове
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/6cWx_rbgZaw">▶️</a>
             </td>
         </tr>
         <tr>
@@ -98,7 +98,7 @@
             </td>
             <td>
                 <a href="./meet-03/">
-                    API тестове - част 1
+                    Цикли и повторения
                 </a>
             </td>
             <td>
@@ -108,7 +108,7 @@
             - разработка на скриптове за управление на Postman процедури
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/L9tMBQOdk_k">▶️</a>
             </td>         
         </tr>
         <tr>
@@ -129,7 +129,7 @@
             - Doc block - коментари
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/6-2LxYMw7T4">▶️</a>
             </td>         
         </tr>
         <tr>
@@ -150,7 +150,7 @@
             - Doc block - коментари
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/aTyf7FZbMWE">▶️</a>
             </td>         
         </tr>
         <tr>
@@ -173,7 +173,7 @@
             - Работа с дебъгера на Dev Tools
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/vfXojMliXJk">▶️</a>
             </td>
         </tr>        
     </tbody>
@@ -214,7 +214,7 @@
             - Разработка на базов механизъм за управление на масиви от тестове
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/VyqR35UW-tk">▶️</a>
             </td>         
         </tr>
         <tr>
@@ -232,7 +232,7 @@
 - Запознаване със средата, работа с UI на продукта
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/M7LObuoVihQ">▶️</a>
             </td>         
         </tr>
         <tr>
@@ -250,7 +250,7 @@
             - Добри практики при разработка на автоматизирани скриптове
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/aXoCarenCzk">▶️</a>
             </td>         
         </tr>
         <tr>
@@ -268,7 +268,7 @@
             - Какво е Docker и как работи
             </td>
             <td align="center">
-                <a href="https://youtu.be/gkbyeI3UkrA">▶️</a>
+                <a href="https://youtu.be/n9OrIEfJ5l8">▶️</a>
             </td>         
         </tr>
     </tbody>
